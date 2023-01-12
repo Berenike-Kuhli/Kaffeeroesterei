@@ -6,6 +6,12 @@
     "build": "vite build  --emptyOutDir",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vite": "^2.7.2",
+    "vite-imagetools": "^4.0.3",
+    "vite-plugin-handlebars": "^1.6.0",
+    "vite-plugin-html-images": "^0.1.2"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
     "eslint": "^8.6.0",
@@ -16,11 +22,7 @@
     "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
     "postcss-nesting": "^10.1.1",
-    "prettier": "^2.5.1",
-    "vite": "^2.7.2",
-    "vite-imagetools": "^4.0.3",
-    "vite-plugin-handlebars": "^1.6.0",
-    "vite-plugin-html-images": "^0.1.2"
+    "prettier": "^2.5.1"
   },
   "packageManager": "yarn@3.1.1"
 }
