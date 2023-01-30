@@ -1,6 +1,16 @@
 .hero {
-  color: red;
-  position: relative;
+ height: 75vH;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ position: relative;
+  background-image: url("../images/coffee.jpg");
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
 }
 
 .hero-title {
@@ -9,9 +19,17 @@
   right: 50%;
   transform: translate(50%,-50%);
   z-index: 10;
+  text-align: center;
+  font-size: var(--h1-m-font-size);
+    font-weight: 900;
+    line-height: 1.1%;
+    color: var(--color-white);
 }
 
-.hero-img {
-  filter: grayscale(50%);
-  z-index: 5;
+.hero-text {
+  font-size: var(--body-m-font-size);
+  line-height: 1.1%;
+    color: var(--color-white);
+  text-align: center;
 }
+
