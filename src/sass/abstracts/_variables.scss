@@ -1,14 +1,14 @@
 :root {
   /* Colors */
-  --color-white: #FFFFFF;
-  --color-anthrazit:#1A1A1A;
-  --color-medium-brown: #3A3734; /*nicht im Styleguide, aus Figma entnommen*/
-  --color-light-grey:#E9E9E9;
+  --color-white: #ffffff;
+  --color-anthrazit: #1a1a1a;
+  --color-medium-brown: #3a3734; /*nicht im Styleguide, aus Figma entnommen*/
+  --color-light-grey: #e9e9e9;
   --color-medium-grey: #737373;
-  --color-light-brown: #D7BE9D; /*Kraftpapier*/
-  --color-orange:#D77C12;
-  --color-petrol:#006D7E;
-  --color-rosa:#EDD1C9;
+  --color-light-brown: #d7be9d; /*Kraftpapier*/
+  --color-orange: #d77c12;
+  --color-petrol: #006d7e;
+  --color-rosa: #edd1c9;
 
   /* Font Size */
   --h1-font-size: 96px;
@@ -16,7 +16,16 @@
   --h3-font-size: 42px;
   --body-font-size: 18px;
   --h1-m-font-size: 64px;
-  --h2-m-mobile-font-size: 36px; 
+  --subhead-m-font-size: 18px;
+  --h2-m-font-size: 36px;
   --h3-m-font-size: 32px;
   --body-m-font-size: 14px;
+
+  /*Icons*/
+  --icon-color-light: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg)
+    brightness(105%) contrast(108%);
+  // --icon-color-dark:;
+  --logo-size: 35px;
+  --hamburger-width: 25px;
+  --hamburger-height: 12px;
 }

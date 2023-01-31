@@ -1,35 +1,60 @@
-.hero {
- height: 75vH;
- width:100%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- position: relative;
+.hero-container {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   background-image: url("../images/coffee.jpg");
   background-blend-mode: overlay;
   background-color: rgba(0, 0, 0, 0.3);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   z-index: 5;
 }
 
 .hero-title {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translate(50%,-50%);
-  z-index: 10;
   text-align: center;
   font-size: var(--h1-m-font-size);
-    font-weight: 900;
-    line-height: 1.1%;
-    color: var(--color-white);
+  font-weight: 900;
+  line-height: 1.1%;
+  color: var(--color-white);
 }
 
 .hero-text {
-  font-size: var(--body-m-font-size);
+  font-size: var(--subhead-m-font-size);
+  font-weight: 400;
   line-height: 1.1%;
-    color: var(--color-white);
+  color: var(--color-white);
   text-align: center;
 }
 
+.icon-container {
+  filter: var(--icon-color-light);
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: var(--logo-size);
+  // width: var(--logo-size);
+}
+
+.hamburger {
+  height: var(--hamburger-height);
+  width: var(--hamburger-width);
+  float: right;
+  margin-top: 5px;
+}
+
+.hero-button-box {
+  position: absolute;
+  bottom: 60px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
