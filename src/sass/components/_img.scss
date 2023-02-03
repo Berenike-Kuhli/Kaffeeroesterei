@@ -6,6 +6,9 @@ img {
 .img-right {
     float: right;
     margin: 40px 24px 40px 0px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .img-left {
@@ -13,4 +16,7 @@ img {
     margin: 40px 0px 40px 24px;
 }
 
-
+.dark-icon {
+    color: var(--icon-color-dark);
+    height: var(--icon-size);
+  }

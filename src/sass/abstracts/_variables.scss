@@ -24,8 +24,9 @@
   /*Icons*/
   --icon-color-light: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg)
     brightness(105%) contrast(108%);
-  // --icon-color-dark:;
+  --icon-color-dark: var(--color-medium-brown);
   --logo-size: 35px;
   --hamburger-width: 25px;
   --hamburger-height: 12px;
+  --icon-size: 45px;
 }
