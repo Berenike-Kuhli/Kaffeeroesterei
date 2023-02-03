@@ -22,11 +22,11 @@
   --body-m-font-size: 14px;
 
   /*Icons*/
-  --icon-color-light: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg)
-    brightness(105%) contrast(108%);
-  --icon-color-dark: var(--color-medium-brown);
+  --icon-color-light: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+  // --icon-color-dark: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
   --logo-size: 35px;
   --hamburger-width: 25px;
   --hamburger-height: 12px;
-  --icon-size: 45px;
+  --icon-size-medium: 45px;
+  --icon-size-small: 15px;
 }

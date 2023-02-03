@@ -1,0 +1,20 @@
+.dark-icon {
+    color: var(--icon-color-dark);
+
+    &-medium {
+    @extend .dark-icon;
+        height: var(--icon-size-medium);
+  }
+}
+
+
+.light-icon {
+filter: var(--icon-color-light);
+  
+&-small {
+    @extend .light-icon;
+    height: var(--icon-size-small);
+   } 
+}
+
+
