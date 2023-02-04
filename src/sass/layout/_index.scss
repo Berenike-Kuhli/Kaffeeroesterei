@@ -1,23 +1,35 @@
 .info-container {
-  margin: 24px;
+  margin: 60px 24px 0px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  clear: both;
+
+  .h2m {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin: 0px;
+  }
 }
 
 .info-container-quer {
-  margin: 24px;
   display: flex;
-  //   flex-direction: row;
-  //  justify-content: ;
-  column-count: 2;
-  column-gap: 20px;
-  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .text {
+    margin: 20px 24px 0px 24px;
+  }
+}
+
+.img-left {
+  margin-bottom: 60px;
 }
 
 .sorten-container {
-  // height: 910px;
   width: 100%;
   background-color: var(--color-anthrazit);
   color: var(--color-white);
