@@ -5,6 +5,10 @@
   justify-content: center;
   clear: both;
 
+  @include media-lg {
+    margin: 100px 125px 0px 125px;
+  }
+
   .h2m {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -22,6 +26,10 @@
 
   .text {
     margin: 20px 24px 0px 24px;
+  
+    @include media-lg {
+      margin: 20px 125px 0px 125px;
+    }
   }
 }
 

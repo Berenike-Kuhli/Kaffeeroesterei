@@ -12,11 +12,19 @@ img {
     margin: 40px 24px 40px 0px;
     flex-direction: column;
     justify-content: center;
-    // position: relative;
+
+@include media-lg {
+    margin: 125px 100px 125px 0px;
+}
+
 }
 
 .img-left {
     float: left;
     margin: 40px 0px 40px 24px;
+
+    @include media-lg {
+        margin: 125px 0px 125px 100px;
+    }
 }
 

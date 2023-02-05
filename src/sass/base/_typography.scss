@@ -18,28 +18,44 @@ body {
     font-size: var(--h1-m-font-size);
     font-weight: 900;
     line-height: 1.1;
+
+    @include media-lg {
+      font-size: var(--h1-font-size);
+    }
   }
 
   .h2m {
     font-size: var(--h2-m-font-size);
     font-weight: 900;
     line-height: 1.1;
+
+    @include media-lg {
+      font-size: var(--h2-font-size);
+    }
   }
 
   .h3m {
     font-size: var(--h3-m-font-size);
     font-weight: 900;
     line-height: 1.1;
-  }
 
+    @include media-lg {
+      font-size: var(--h3-font-size);
+    }
+  }
+// ggf für den Footer relevant, Größe für Desktop noch nachpflegen
   .h4m {
     font-size: var(--h4-m-font-size);
     font-weight: 900;
     line-height: 1.1;
+
+    @include media-lg {
+      font-size: var(--h4-font-size);
+    }
   }
 
   .subhead {
-    font-size: var(--subhead-m-font-size);
+    font-size: var(--body-font-size);
     line-height: 1.1;
   }
 }
