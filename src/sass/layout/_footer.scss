@@ -4,14 +4,6 @@ footer {
   color: white;
   width: 100%;
 
-  .icon-container {
-    filter: var(--icon-color-light);
-    // width: 100%;
-    position: absolute;
-    top: 60px;
-    box-sizing: border-box;
-  }
-
   .titel-container {
     margin: 0px 24px 0px 24px;
     display: flex;
@@ -19,9 +11,16 @@ footer {
     justify-content: left;
     position: relative;
 
+    .light-icon-medium {
+      margin: 60px 0px 0px 0px;
+      height: var(--icon-size-sm);
+      width: min-content;
+    }
+
     .h4m {
       clear: both;
       margin-bottom: 0px;
+      margin-top: 15px;
     }
 
     .subhead {

@@ -11,6 +11,11 @@
 .light-icon {
 filter: var(--icon-color-light);
   
+&-medium {
+    @extend .light-icon;
+        height: var(--icon-size-medium);
+}
+
 &-small {
     @extend .light-icon;
     height: var(--icon-size-small);
