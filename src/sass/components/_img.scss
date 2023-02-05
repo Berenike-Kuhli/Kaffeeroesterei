@@ -1,6 +1,10 @@
 img {
     max-width: 240px;
     height: auto;
+
+    @include media-lg {
+        max-width: 600px;
+    }
   }
 
 .img-right {

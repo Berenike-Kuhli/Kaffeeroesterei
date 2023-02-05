@@ -12,7 +12,11 @@
   background-position: center;
   background-size: cover;
   z-index: 5;
-}
+
+  @include media-lg {
+    height: 65vh;
+  }
+
 
 .hero-title {
   text-align: center;
@@ -20,10 +24,14 @@
   font-weight: 900;
   line-height: 1.1%;
   color: var(--color-white);
+
+  @include media-lg {
+    font-size: var(--h1-font-size);
+  }
 }
 
 .hero-text {
-  font-size: var(--subhead-m-font-size);
+  font-size: var(--body-font-size);
   font-weight: 400;
   line-height: 1.1%;
   color: var(--color-white);
@@ -58,3 +66,5 @@
   margin-left: 50%;
   transform: translate(-50%);
 }
+}
+
