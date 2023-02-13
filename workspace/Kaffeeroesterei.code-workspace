@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Pre_Challenge"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kaffeeroesterei",
+		"git.ignoreLimitWarning": true
+	}
+}
