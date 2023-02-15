@@ -1,0 +1,46 @@
+nav {
+background-color: var(color-anthrazit);
+position: relative;
+
+//TODO wie bekomme ich den schwarzen Block hier hin?
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:none; //hidden as default
+  
+  a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--h3-m-font-size); 
+    font-weight: 900;
+    line-height: 37.5px;
+  }
+  }
+}
+
+.icon-container {
+  filter: var(--icon-color-light);
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: var(--logo-size);
+  // width: var(--logo-size);
+}
+
+.hamburger {
+  height: var(--hamburger-height);
+  width: var(--hamburger-width);
+  float: right;
+  margin-top: 5px;
+// wie komme ich vom Hamburger zum ausgeklappten Menu? 
+  // transition: all 0.5s ease-in-out;
+
+}
