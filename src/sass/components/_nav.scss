@@ -1,22 +1,23 @@
-nav {
-background-color: var(color-anthrazit);
-position: relative;
-
 //TODO wie bekomme ich den schwarzen Block hier hin?
+nav {
+  position: relative;
+  // so geht es schon mal nicht
+  // background-color: var(color-anthrazit);
+  // width: 100%;
 
-  ul{
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display:none; //hidden as default
-  
-  a{
+    display: none; //hidden as default
+  }
+
+  a {
     text-decoration: none;
     color: var(--color-white);
-    font-size: var(--h3-m-font-size); 
+    font-size: var(--h3-m-font-size);
     font-weight: 900;
     line-height: 37.5px;
-  }
   }
 }
 
@@ -40,7 +41,4 @@ position: relative;
   width: var(--hamburger-width);
   float: right;
   margin-top: 5px;
-// wie komme ich vom Hamburger zum ausgeklappten Menu? 
-  // transition: all 0.5s ease-in-out;
-
 }
