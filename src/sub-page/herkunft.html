@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="/sass/main.scss" />
   </head>
   <body>
-    {{> header}}
+    <header>
+      <img class="header" src="images/FEND-Coffee-shop.jpg">
+      <!--kann ich die KOmponente so, innerhalb eines anderes Elements aufrufen?-->
+      {{> navigation}}
+    </header>
     <section>
       <article class="info-container">
       <h2 class="h2m">Der Ursprung von Rustica</h2>
