@@ -1,5 +1,5 @@
 .dark-icon {
-    color: var(--icon-color-dark);
+   // schwarz ist default, daher hier keine Farbe
 
     &-medium {
     @extend .dark-icon;

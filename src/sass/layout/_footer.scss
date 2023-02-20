@@ -1,7 +1,7 @@
 footer {
   height: 370px;
   background-color: black;
-  color: white;
+  color: var(--color-white);
   width: 100%;
 
   .titel-container {
@@ -38,22 +38,30 @@ footer {
     }
   }
 
-  nav {
+  .footer-nav {
     display: flex;
-    margin: 0px;
-
-    .nav-li {
-      margin: 20px 24px 0px 24px;
-    }
-
-    .nav-re {
-      margin: 20px 24px 0px 82px;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px;
 
     ul {
       list-style-type: none;
       margin: 0px 0px 50px 0px;
       padding: 0px;
+
+      a {
+        text-decoration: none;
+        color: var(--color-white);
+      }
+
+      .nav-li {
+        margin: 20px 24px 0px 24px;
+        width:50%;
+      }
+      .nav-re {
+        margin: 20px 24px 0px 50px;
+        width:50%;
+      }
     }
   }
 }
