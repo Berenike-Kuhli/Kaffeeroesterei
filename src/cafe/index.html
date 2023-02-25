@@ -59,4 +59,13 @@
   </section>
     {{> footer}}
     </body>
+    <!--TODO wie organisiere ich das js so, dass es in einem eigenen Ordner wohnen kann, aber alle Seiten es aufrufen?-->
+    <script>function openMenu() {
+      const x = document.getElementById("subpagelinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }</script>
     </html>
