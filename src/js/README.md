@@ -1,0 +1,1 @@
+das JS hier ist aus einer Lernsession und hat nichts mit der Website zu tun
