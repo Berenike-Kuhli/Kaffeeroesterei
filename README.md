@@ -1,3 +1,7 @@
+# What this is
+This is a private coding project to learn HTML and CSS skills and does not represent a real enterprise.
+Originally this was started during the opencampus.sh Fropntend Developer Program 2023 and continued afterwards.
+
 # Usage
 
 To use this example you have to have Node.js and Yarn installed.
